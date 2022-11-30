@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF=8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FINAL_PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#inspiration">Inspiration</a></li>    
+                <li><a href="#photos">My Photos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Information Technology</p>
+            <h1>Hi, I'm <span>Baria,</span><br>Nicolle Stephanie D.</h1>
+        </div>
+    </div>
+</div>
+<!-- ----------about---------- -->
+<div id="introduction">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/profile.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">Introduction:</h1>
+                <p>Hi, I am Nicolle Stephanie Baria, I am currently studying Bachelor of Science in Information Technology at ICCT Main Campus. I am 20 years old now. I like traveling a lot together with my family, I love reading, listening to music and watch dramas.</p>   
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('profile')">Profile</p>
+                        <p class="tab-links" onclick="opentab('details')">Details</p>
+                        <p class="tab-links" onclick="opentab('favorite')">Favorite</p>
+                        <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                        <p class="tab-links" onclick="opentab('motivation')">Motivation</p>
+                        <p class="tab-links" onclick="opentab('goal')">Goal</p>
+                    </div>
+                     <div class="tab-contents active-tab" id="profile">
+                        <ul>
+                            <li>I'm a nice person</li>                                                   
+                            <li>Friendly person</li>
+                            <li>good at communication</li>
+                            <li>Creative mind</li>
+                            <li>good listener</li>
+                            <li>I want to be challenged</li>
+                            
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="details">
+                        <ul>
+                            <li><span>Current School</span><br>ICCT Main Campus</li>
+                            <li><span>2019-2021</span><br>SJB ANGONO(SHS)</li>
+                            <li><span>2015-2019</span><br>Manuel I. Santos Memorial National High School</li>
+                            <li><span>2009-2015</span><br>Exodus Elementary School</li>
+                            <li><span>Birthday:</span><br>November 22, 2002</li>
+                            <li><span>lives in:</span><br>Taytay, Rizal</li>
+                            <li><span>Quote:</span><br>Be yourself. People may or may not like you, but it's im portant that you stay true to who you are.</li>
+                            <li><span>Motto:</span><br>Do what you love, and love what you do.</li>
+                            <li><span>Slogan:</span><br>Enjoy every moment you live.</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="favorite">
+                        <div style="display: flex">
+                            <ul>
+                                <li><span>Color</span><br>Black<br>Khaki<br>Violet<br>Red</li>
+                                <li><span>Idols(PH):</span><br>SB19<br>BGYO<br>KAIA</li>
+                                <li><span>Idols(KOR):</span><br>GOT7<br>ENHYPEN<br>BLACKPINK<br>TWICE</li>
+                                <li><span>Band/s(PH):</span><br>Eraserheads<br>Siakol<br>Hale<br>Thejuans<br>Parokya ni Edgar<br>Silent Sanctuary<br>kamikazee</li>
+                            </ul>
+                            <ul style="margin-left: 50px">
+                                <li><span>Singer/s:</span><br>Ariana grande<br>mark Tuan<br>Jackson Wang<br>IU</li>
+                                <li><span>Movie/s:</span><br>The Big One<br>Scarlet Heart Ryeo</li>
+                                <li><span>Story/s:</span><br>twilight(series)<br>Harry Potter(series)</li>
+                                <li><span>Foods:</span><br>Fried Chicken<br>Ice Cream<br>Adobo</li>
+                                <li><span>Pet/s</span><br>Dog<br>Cat</li>
+                            </ul>
+                        </div>
+                     </div>
+                     <div class="tab-contents" id="hobbies">
+                        <ul>
+                            <li>Portrait Art</li>                                                   
+                            <li>Traveling</li>
+                            <li>Reading a Book</li>
+                            <li>Designing</li>
+                            <li>Shopping</li>
+                            <li>Cooking</li>
+                            <li>Eating</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="motivation">
+                        <ul>
+                            <li>"Success is simple. Do what's right way, at the right time."</li>                                                   
+                            <li>"Live like a candle which burns itself but gives light to others."</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="goal">
+                        <ul>
+                            <li>Travel any where</li>                                                   
+                            <li>Find a Job</li>
+                            <li>Enjoy life to the fullest</li>
+                            <li>Become a blood donor</li>
+                            <li>Learn to play the guitar</li>
+                        </ul>
+                     </div>
+               </div>
+          </div>
+     </div>
+</div>
+
+<!-- ----------inspiration---------- -->
+<div id="inspiration">
+    <div class="container">
+        <div>
+            <h1 class="sub-ins">Inspiration:</h1>
+        </div>
+        <div class="img-inspiration">
+            <img src="images/ken.jpg" onclick="openFullImg()">
+            <img src="images/mark.jpg" onclick="openFullImg()">
+            <img src="images/sb19.jpg" onclick="openFullImg()">
+            <img src="images/got7.jpg" onclick="openFullImg()">
+        </div>
+    </div>
+</div>
+<script>
+
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+
+    function openFullImg(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+    }
+
+    function closeFullImg(){
+        fullImgBox.style.display = "none";
+    }
+</script>
+
+<!-- ----------Albums---------- -->
+<div id="photos">
+    <div class="container">
+        <div>
+            <h1 class="sub-album">My Albums:</h1>
+        </div>
+        <div class="img-gallery">
+            <img src="images/sb1.jpg" onclick="openFullImg()">
+            <img src="images/sb2.jpg" onclick="openFullImg()">
+            <img src="images/sister.jpg" onclick="openFullImg()">
+            <img src="images/sisters.jpg" onclick="openFullImg()">
+            <img src="images/part1.jpg" onclick="openFullImg()">
+            <img src="images/part2.jpg" onclick="openFullImg()">
+            <img src="images/part3.jpg" onclick="openFullImg()">
+            <img src="images/fam1.jpg" onclick="openFullImg()">
+            <img src="images/fam2.jpg" onclick="openFullImg()">
+            <img src="images/friends1.jpeg" onclick="openFullImg()">
+            <img src="images/friends2.jpeg" onclick="openFullImg()">
+            <img src="images/friends3.jpg" onclick="openFullImg()">
+            <img src="images/friends4.jpg" onclick="openFullImg()">
+        </div>
+    </div>
+</div>
+<script>
+
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+
+    function openFullImg(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+    }
+
+    function closeFullImg(){
+        fullImgBox.style.display = "none";
+    }
+</script>
+
+<div id="contact">
+    <section id="section-wrapper">
+        <div class="box-wrapper">
+            <div class="info-wrap">
+                <h2 class="info-title"> Contact Information</h2>
+                    <h3 class="info-sub-title">Fill Up the forn and i will get back to you within 24 hours</h3>
+                    <ul class="info-details">
+                        <li>
+                            <i class="fa fa-phone"></i>
+                            <span>Phone: </span> <a href="tel:+123456789">123456789</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-paper-plane"></i>
+                            <span>Email: </span> <a href="mailto:nicsdb22@gmail.com">nicsdb22@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-globe"></i>
+                            <span>Website: </span> <a href="https://portfolio.com">portfolio.com</a>
+                        </li>
+                    </ul>
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#facebook">
+                                <i class="fa fa-facebook"></i>
+                                <span></span> <a href="https://www.facebook.com/ColleDavid22">Nicolle David Baria</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#twitter">
+                                <i class="fa fa-twitter"></i>
+                                <span></span> <a href="https://twitter.com/nicsdb1/">nicsdb1</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#instagram">
+                                <i class="fa fa-instagram"></i>
+                                <span></span> <a href="https://www.instagram.com/nics_bars/">nics_bars</a>
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="form-wrap">
+                <form action="#" method="POST">
+                    <h2 class="form-title">Send us a message</h2>
+                    <div class="form-fields">
+                        <div class="form-group">
+                            <input type="text" class="fname" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="lname" placeholder="Last Name">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Mail"></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" value="send message" class="submit-button">
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");    
+            }   
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab"); 
+        }
+    
+    </script>
+
+ 
+
+</body>
+</html>
